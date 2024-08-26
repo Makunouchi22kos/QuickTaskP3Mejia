@@ -30,7 +30,7 @@ public class SimpleMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2d(Collider2D collison)
+    private void OnTriggerEnter2D(Collider2D collison)
     {
         if (collison.tag == "Win")
         {
